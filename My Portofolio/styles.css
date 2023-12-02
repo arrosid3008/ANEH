@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:sans-serif;
+}
+
+.section1{
+    background-image: url(gambar.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+nav{
+    padding: 40px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #04ff04;
+    font-size: larger;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+li{
+    padding: 0 25px;
+    list-style: none;
+}
+a{
+    color: rgb(248, 242, 242);
+    font-weight: bolder;
+    text-decoration: none;
+}
+a:hover{
+    color: #04ff04;
+}
+
+.search{
+    display: flex;
+    justify-content: right;
+    margin-right: 6%;
+}
+
+.srch{
+    padding: 8px 25px;
+    border-radius: 30px 0 0 30px;
+    outline: none;
+    margin-right: 0;
+    border: 1px solid #04ff04;
+    background-color: transparent;
+    color: white;
+}
+
+.btn{
+    padding: 9px 20px;
+    background-color: #04ff04;
+    border: none;
+    outline: none;
+    margin-left: none;
+    position: absolute;
+    border-radius: 0 30px 30px 0;
+}
+
+.me {
+    width: 30%;
+    padding: 0 8%;
+    position: absolute;
+    top: 25%;
+}
+
+.me h1{
+    color: white;
+    font-size: 35px;
+}
+span{
+    color: #04ff04;
+}
+.me p{
+    color: white;
+}
+.button1 {
+    padding: 10px 25px;
+    background-color: #04ff04;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.newslater{
+    height: 350px;
+    width: 260px;
+    border: 1px solid #04ff04;
+    position: absolute;
+    right: 8%;
+    top: 25%;
+    padding: 20px;
+}
+
+.reg {
+    background-color: #04ff04;
+    color: white;
+    padding: 5px 10px;
+    text-align: center; border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+form{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.form1 input {
+    margin: 20px auto;
+    height: 30px;
+    width: 85%;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 1px solid #04ff04;
+    color: white;
+}
+form .form_btn{
+    height: 30px;
+    width: 240px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: #04ff04;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+form .form_btn:hover{
+    color: :darkblue;
+    background-color:yellow;
+}
+
+h5{
+    color: #04ff04;
+    margin-bottom: 4px;
+}
+
+i{
+    padding: 8px 6px;
+}
+
+h3 {
+    color: white;
+    margin-bottom: 3px;
+    margin-top: 2px;
+    font-size: small;
+}
